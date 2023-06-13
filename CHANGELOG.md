@@ -1,5 +1,16 @@
 # Changelog
 
+## [9.7.2](https://github.com/npm/cli/compare/v9.7.1...v9.7.2) (2023-06-13)
+
+### Bug Fixes
+
+* [`e722439`](https://github.com/npm/cli/commit/e722439b05bb4da691975359db58eac794f1f5d9) [#6497](https://github.com/npm/cli/pull/6497) move all definitions to @npmcli/config package (@lukekarrys)
+
+### Dependencies
+
+* [Workspace](https://github.com/npm/cli/releases/tag/config-v6.2.1): `@npmcli/config@6.2.1`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmpublish-v7.4.0): `libnpmpublish@7.4.0`
+
 ## [9.7.1](https://github.com/npm/cli/compare/v9.7.0...v9.7.1) (2023-06-06)
 
 ### Dependencies
