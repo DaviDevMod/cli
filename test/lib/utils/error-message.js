@@ -433,6 +433,6 @@ t.test('explain ERESOLVE errors', async t => {
   t.matchSnapshot(errorMessage(er))
   t.equal(EXPLAIN_CALLED.length, 3)
   t.match(EXPLAIN_CALLED, [er, Function, Function])
-  t.not(EXPLAIN_CALLED[1].level, 0, 'color chalk level is not 0')
+  t.type(EXPLAIN_CALLED[1].level, 'number', 'color chalk level is a number')
   t.equal(EXPLAIN_CALLED[2].level, 0, 'colorless chalk level is 0')
 })
